@@ -1,0 +1,16 @@
+div{
+    color: aqua;
+}
+
+span{
+    margin: 100px;
+    color: black;
+    background-color: yellow;
+}
+
+.spiderman {
+    width: 500px;   /* Change width */
+    height: auto;   /* Keeps aspect ratio */
+    display: block;
+    margin: 0 auto; /* Center the image */
+}

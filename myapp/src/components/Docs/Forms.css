@@ -1,0 +1,87 @@
+.forms {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form2,
+.form3 {
+    flex: 1;
+    min-width: 300px;
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="range"],
+input[type="file"],
+select {
+    width: 100%;
+    padding: 8px 10px;
+    margin: 6px 0 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+label {
+    margin-right: 10px;
+    font-weight: 500;
+}
+
+p {
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 6px;
+}
+
+.button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .forms {
+        flex-direction: column;
+    }
+}
+
+/* .error {
+    color: red;
+    font-size: 0.85rem;
+    margin-top: -8px;
+    margin-bottom: 10px;
+    display: block;
+} */
